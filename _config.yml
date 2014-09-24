@@ -51,7 +51,21 @@ baseurl: ""
 
 markdown: kramdown
 highlighter: pygments
-permalink: /:title/
+#permalink: /:title/
+perlmallink: /blog/:year/:month/:day/:title
+
+pages_list:
+  Archive: '/archive/'
+  About: '/about/'
+#  archive_path: /archive.html
+#  pages_path: /pages.html
+  
+
+
+
+
+
+
 
 # The release of Jekyll Now that you're using
 version: v1.0.0
